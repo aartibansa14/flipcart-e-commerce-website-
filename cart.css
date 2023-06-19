@@ -1,0 +1,281 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#cart
+{
+    display: flex;
+    /*height: 500px;
+    width: 1250px;
+   margin-left: 15px;
+    display: flex;
+    margin-top: 20px;
+    background-color: aquamarine;*/
+    margin-top: 58px;
+}
+
+#cart_1
+{
+    width: 806px;
+    /*height: 400px;*/
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 40px;
+}
+.row-1
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'roboto';
+    font-size: 16px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    align-items: center;
+    height: 55px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #2a55e5;
+}
+#row-2
+{
+    font-family: 'roboto';
+    margin-top: 10px;
+    color: #111112;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 14px;
+    height: 55px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.row-3
+{
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 385px;
+}
+
+.image
+{
+    width: 222px;
+    height: 162px;
+    display: flex;
+   margin: 0 auto;
+   position: relative;
+   top:40px;
+}
+.h1
+{
+    font-size: 18px;
+    font-family: 'roboto';
+    font-weight: normal;
+    color: #212121;
+    margin-top: 70px;
+    text-align: center;
+}
+.h2
+{
+    font-size: 14px;
+    font-family: 'roboto';
+    font-weight: normal;
+    color: #212121;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.row_4
+{
+   /* margin-top: 10px;*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   /* height: 190px;*/
+    display: flex;
+    border-bottom: 1px solid #f0f0f0!important;
+    
+}
+
+.big_img
+{
+    width: 85px;
+    height: 140px;
+    margin: 30px;
+    margin-left: 60px;
+}
+.wo
+{
+    margin-top: 30px;
+}
+
+.defi
+{
+    font-size: 16px;
+    font-family: 'roboto';
+    color: #212121;
+}
+.color
+{
+    font-size: 14px;
+    color: #878787;
+    font-family: 'roboto';
+    margin-top: 5px;
+}
+
+.pri
+{
+    display: flex;
+    /*margin-top: 25px;*/
+    margin-top: 5px;
+    justify-content:space-between;
+    width: 125px;
+}
+.deleted
+{
+    font-size: 14px;
+    color: #878787;
+    font-family: 'roboto';
+}
+.price
+{
+    font-size: 18px;
+    color: #212121;
+    font-weight: 600;
+    font-family: 'roboto';
+    margin-top: -3px;
+}
+.small_img
+{
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#cart_2
+{
+    margin-top: 20px;
+    width: 437px;
+    height:310px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+.of
+{
+    color: #388e3c;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'roboto';
+}
+
+
+.cart_footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #f0f0f0!important;
+    text-align: center;
+    align-items: center;
+    height: 80px;
+   
+}
+.cart_footer .sp
+{
+    font-family: 'roboto';
+    color: #565656;
+    font-size: 14px;
+}
+.cart_footer p
+{
+    font-family: 'roboto';
+    color: #565656;
+    font-size: 14px; 
+}
+.cart_footer .hc
+{
+    color: #2874f0;
+}
+.ab08
+{
+    padding-left: 25px;
+}
+
+#cart_2 h1
+{
+    color: #878787;
+    font-size: 16px;
+    font-family: 'roboto';
+   padding: 13px 24px;
+   border-bottom: 1px solid #f0f0f0!important;
+}
+.div_1
+{
+    padding: 13px 24px;
+    border-bottom: 1px dashed #f0f0f0!important;
+}
+.di_1
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.charge
+{
+    font-size: 16px;
+    color: #212121;
+    font-family: 'roboto';
+    font-weight: normal;
+    padding: 10px;
+    padding-left: 0px;
+}
+.price_total
+{
+    font-size: 16px;
+    color: #212121;
+    font-family: 'roboto';
+    font-weight: normal;
+}
+.dis_tot
+{
+    font-size: 16px;
+    color: #388e3c;
+    font-family: 'roboto';
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+.div_2
+{   
+    display: flex;
+    padding: 13px 24px;
+    justify-content: space-between;
+    border-bottom: 1px dashed #f0f0f0!important;
+}
+.div_2 p
+{
+    font-family: 'roboto';
+    font-size: 18px;
+    color: #212121;
+    font-weight: 600;
+}
+
+.div_3
+{
+    padding: 16px 26px;
+    font-family: 'roboto';
+    color: #388e3c;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bt
+{
+    margin-top: 5px;
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #212121;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+}

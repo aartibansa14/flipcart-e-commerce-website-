@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    width:53%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+   
+  
+   /* height: 60%;*/
+   
+    box-shadow: 0px 0px 3px grey;
+    margin-top: 25px;
+    border-radius: 10px;
+    
+    
+   
+}
+
+.left
+{
+    width:45%;
+    height: 520px;
+    background-image: url("image/loginimg.png");
+    background-repeat: no-repeat;
+    
+  background-position: center 335px;
+    
+    background-color: #2874f0;
+    display: inline-block;
+    
+  padding: 44px 33px;
+ 
+  background-size: 210px 140px;
+ 
+}
+ 
+
+   
+   
+   
+    
+    
+    
+
+
+ 
+
+.left span 
+{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'roboto';
+}
+.left p 
+{
+    color: #dbdbdb;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'roboto';
+    margin-top: 16px;
+  
+   
+}
+
+.right
+{
+    padding: 56px 35px 16px;
+    height: 400px;
+    width:60%;
+
+   
+
+}
+
+.right input
+{
+    border: none;
+    
+    font-size: inherit;
+    
+   padding-bottom: 10px;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    
+}
+
+.right p
+{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'roboto';
+    padding-top: 30px;
+    color: grey;
+    width: 350px;
+    
+}
+.right p a
+{
+    text-decoration: none;
+}
+
+.right .button
+{
+    background-color: #fb641b;
+    outline: none;
+    border: none;
+    padding: 17px 120px;
+    color: white;
+    font-family: 'roboto';
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 338px;
+}
+.right .create
+{
+    text-decoration: none;
+    font-family: 'roboto';
+    font-size: 14px;
+  display: flex;
+  justify-content: left;
+  margin-top: 255px;
+  padding-left: 55px;
+  color: #2874f0;
+  font-weight: 700;
+}
+
+.cross
+{
+    font-family: 'roboto';
+    font-size: 35px;
+    position: relative;
+    left: 33px;
+    bottom:5px;
+    
+    
+}
+.cross a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.button1
+{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 13px 93px;
+    box-shadow: 0px 0px 3px grey;
+    font-family: 'roboto';
+    margin-top: 15px;
+    
+}
+
+.button1 a
+{
+    text-decoration: none;
+}
+
+
+
+
